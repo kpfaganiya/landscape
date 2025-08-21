@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f1f8e9;
+  --text: #0b2e13;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  background: linear-gradient(to bottom, #ecfdf5, #ffffff);
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
